@@ -3,6 +3,7 @@
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
+ini_set('xdebug.max_nesting_level', 500);
 class AppKernel extends Kernel
 {
     public function registerBundles()
